@@ -2625,12 +2625,13 @@ a.contact-info-value:hover {
   color: #8B5CF6;
 }
 
-/* Resume Button */
-.contact-resume-wrap {
-  margin-top: 16px;
+/* Journey Resume Button */
+.journey-resume-wrap {
+  margin-top: 32px;
+  padding-left: 28px; /* Align with timeline content */
 }
 
-.contact-resume-btn {
+.journey-resume-btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -2646,7 +2647,7 @@ a.contact-info-value:hover {
   transition: border-color 0.3s ease, background-color 0.3s ease;
 }
 
-.contact-resume-btn:hover {
+.journey-resume-btn:hover {
   border-color: #8B5CF6;
   background-color: rgba(139, 92, 246, 0.06);
 }
