@@ -1,0 +1,1572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sakshi Kumari — Graphic Designer & UI/UX Designer Portfolio</title>
+  <meta name="description"
+    content="Portfolio of Sakshi Kumari, a passionate Graphic Designer and UI/UX Designer creating modern visual identities, social media creatives, and intuitive digital experiences.">
+  <meta name="keywords"
+    content="Sakshi Kumari, Graphic Designer, UI/UX Designer, Portfolio, Bhopal, India, Brand Identity, Social Media Design">
+  <meta property="og:title" content="Sakshi Kumari — Graphic Designer & UI/UX Designer Portfolio">
+  <meta property="og:description"
+    content="Designing clean, creative, and user-focused experiences that leave a lasting impression.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <header id="header" role="banner">
+    <div class="nav-inner">
+
+      <!-- Logo: Personal text logo -->
+      <a href="#home" class="nav-logo" id="nav-logo" aria-label="Sakshi Kumari — Home">
+        <span class="nav-logo-name">Sakshi Kumari</span>
+        <span class="nav-logo-role">Graphic Designer &bull; UI/UX Designer</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links" id="nav-menu" role="navigation" aria-label="Main navigation">
+        <a href="#about" class="nav-link" data-section="about">About</a>
+        <a href="#services" class="nav-link" data-section="services">Services</a>
+        <a href="#projects" class="nav-link" data-section="projects">Work</a>
+        <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+      </nav>
+
+      <!-- Right: Resume Button -->
+      <div class="nav-right">
+        <a href="assets/Sakshi-Kumari-Resume.pdf" target="_blank" rel="noopener noreferrer" class="nav-resume-btn"
+          id="nav-resume-btn" aria-label="Download Resume">
+          Resume <span class="resume-arrow" aria-hidden="true">&#8599;</span>
+        </a>
+
+        <!-- Hamburger Toggle (mobile only) -->
+        <button class="nav-hamburger" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false"
+          aria-controls="mobile-menu">
+          <span class="ham-line ham-line-1"></span>
+          <span class="ham-line ham-line-2"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== MOBILE MENU OVERLAY ===================== -->
+  <div class="mobile-overlay" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Navigation menu"
+    aria-hidden="true">
+
+    <!-- Close Button -->
+    <button class="mobile-close" id="mobile-close" aria-label="Close navigation menu">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+        <line x1="1" y1="1" x2="21" y2="21" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+        <line x1="21" y1="1" x2="1" y2="21" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+      </svg>
+    </button>
+
+    <!-- Mobile Nav Links -->
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+      <a href="#home" class="mobile-nav-link" data-section="home">Home</a>
+      <a href="#about" class="mobile-nav-link" data-section="about">About</a>
+      <a href="#services" class="mobile-nav-link" data-section="services">Services</a>
+      <a href="#projects" class="mobile-nav-link" data-section="projects">Work</a>
+      <a href="#contact" class="mobile-nav-link" data-section="contact">Contact</a>
+    </nav>
+
+    <!-- Mobile Footer -->
+    <div class="mobile-footer">
+      <a href="assets/Sakshi-Kumari-Resume.pdf" target="_blank" rel="noopener noreferrer"
+        class="mobile-nav-link mobile-resume">Resume &#8599;</a>
+      <span class="mobile-footer-text">Sakshi Kumari &mdash; Portfolio 2026</span>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ===================== HERO SECTION ===================== -->
+    <section id="home" class="hero" aria-label="Hero Introduction">
+
+      <!-- Subtle radial gradient behind cards -->
+      <div class="hero-radial" aria-hidden="true"></div>
+
+      <div class="hero-wrap">
+
+        <!-- LEFT: Introduction -->
+        <div class="hero-left">
+
+          <!-- "Hi, I'm" label -->
+          <div class="hero-label hero-anim" style="--hi:0" aria-hidden="true">
+            <span class="about-subtitle">Hi, I'm</span>
+            <span class="hero-label-line"></span>
+          </div>
+
+          <!-- Name -->
+          <h1 class="hero-name hero-anim" style="--hi:1">Sakshi Kumari</h1>
+
+          <!-- Title with accent -->
+          <p class="hero-title hero-anim" style="--hi:2">
+            Graphic Designer &amp;<br>
+            Aspiring <span class="hero-accent">UI/UX</span> Designer.
+          </p>
+
+          <!-- Description -->
+          <p class="hero-desc hero-anim" style="--hi:3">
+            I create visual identities, social media creatives, branding,
+            and digital experiences with a focus on clarity, creativity,
+            and usability.
+          </p>
+
+          <!-- CTA Button -->
+          <a href="#projects" class="hero-cta-btn hero-anim" style="--hi:4" id="btn-view-work"
+            aria-label="View My Work">
+            View My Work
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M2 2h10M12 2v10M2 12L12 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+
+          <!-- Location -->
+          <p class="hero-location hero-anim" style="--hi:5">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" stroke="currentColor"
+                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+              <circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="1.8" />
+            </svg>
+            Currently based in Bhopal, India.
+          </p>
+
+        </div><!-- /hero-left -->
+
+        <!-- RIGHT: Fanned Project Cards -->
+        <div class="hero-right" id="hero-visual" aria-label="Featured project previews">
+
+          <!-- Left card: CodeFest 2026 (tilted left, behind) -->
+          <a href="#projects" class="pcard pcard-left hero-anim" style="--hi:3" aria-label="View CodeFest 2026 project">
+            <div class="pcard-img">
+              <img src="assets/project_codefest.png" alt="CodeFest 2026 - Event Poster Design" loading="eager"
+                draggable="false">
+              <div class="pcard-overlay" aria-hidden="true"></div>
+            </div>
+            <div class="pcard-footer">
+              <div class="pcard-text">
+                <span class="pcard-title">CodeFest 2026</span>
+                <span class="pcard-cat">Event Poster Design</span>
+              </div>
+              <span class="pcard-arrow" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                  <path d="M2 2h10M12 2v10M2 12L12 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Center card: RivGara Branding (upright, front, largest) -->
+          <a href="#projects" class="pcard pcard-center hero-anim" style="--hi:2"
+            aria-label="View RivGara Branding project">
+            <div class="pcard-img">
+              <img src="assets/Rivaara logo.png" alt="RivGara Branding - Brand Identity Design" loading="eager"
+                draggable="false">
+              <div class="pcard-overlay" aria-hidden="true"></div>
+            </div>
+            <div class="pcard-footer">
+              <div class="pcard-text">
+                <span class="pcard-title">RivGara Branding</span>
+                <span class="pcard-cat">Brand Identity Design</span>
+              </div>
+              <span class="pcard-arrow" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                  <path d="M2 2h10M12 2v10M2 12L12 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Right card: Volunteer Campaign (tilted right, behind) -->
+          <a href="#projects" class="pcard pcard-right hero-anim" style="--hi:4"
+            aria-label="View Volunteer Recruitment Campaign project">
+            <div class="pcard-img">
+              <img src="assets/Volunteers_image.png" alt="Volunteer Recruitment Campaign - Social Media Design"
+                loading="eager" draggable="false">
+              <div class="pcard-overlay" aria-hidden="true"></div>
+            </div>
+            <div class="pcard-footer">
+              <div class="pcard-text">
+                <span class="pcard-title">Volunteer Campaign</span>
+                <span class="pcard-cat">Social Media Design</span>
+              </div>
+              <span class="pcard-arrow" aria-hidden="true">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                  <path d="M2 2h10M12 2v10M2 12L12 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </span>
+            </div>
+          </a>
+
+        </div><!-- /hero-right -->
+
+      </div><!-- /hero-wrap -->
+
+      <!-- Scroll to explore -->
+      <div class="hero-scroll-cue" aria-label="Scroll to explore">
+        <div class="scroll-mouse" aria-hidden="true">
+          <div class="scroll-wheel"></div>
+        </div>
+        <span>Scroll to explore</span>
+      </div>
+
+    </section><!-- /hero -->
+    <!-- ===================== ABOUT SECTION ===================== -->
+    <section id="about" class="about-section" aria-label="About Sakshi">
+
+      <div class="about-container">
+
+        <!-- Section Title Header -->
+        <div class="about-header reveal">
+          <span class="about-subtitle">About</span>
+          <h2 class="about-main-heading">A little about me.</h2>
+        </div>
+
+        <div class="about-grid">
+
+          <!-- LEFT SIDE: Portrait Image & Designer Tags -->
+          <div class="about-left reveal-left">
+            <div class="about-image-frame">
+              <img src="assets/Sakshi_Pic.jpg" alt="Sakshi Kumari" class="about-portrait" loading="lazy">
+            </div>
+            <div class="about-tags">
+              <span class="about-tag">Graphic Designer</span>
+              <span class="about-tag">UI/UX Designer</span>
+            </div>
+          </div>
+
+          <!-- RIGHT SIDE: Content -->
+          <div class="about-right reveal-right">
+
+            <h3 class="about-right-heading">Hi, I'm Sakshi.</h3>
+
+            <p class="about-paragraph">
+              I'm a final-year B.Tech student with a passion for Graphic Design and an interest in UI/UX Design. Since
+              2024, I've been building my skills through internships, personal projects, and continuous learning.
+            </p>
+
+            <p class="about-paragraph">
+              I enjoy creating branding, social media creatives, event posters, and user interfaces that are simple,
+              functional, and visually engaging. I believe good design should communicate clearly while solving real
+              problems.
+            </p>
+
+            <!-- Highlight Box -->
+            <div class="about-highlight-box">
+              <span class="about-highlight-title">Currently</span>
+              <ul class="about-highlight-list">
+                <li>Graphic Design Intern at REFFTO</li>
+                <li>Based in Bhopal, India</li>
+                <li>Open to Internship &amp; Full-time Opportunities</li>
+              </ul>
+            </div>
+
+            <!-- Three Information Cards -->
+            <div class="about-info-cards">
+
+              <div class="ab-info-card">
+                <span class="ab-card-label">Education</span>
+                <span class="ab-card-main">B.Tech – Data Science</span>
+                <span class="ab-card-sub">2022–2026</span>
+              </div>
+
+              <div class="ab-info-card">
+                <span class="ab-card-label">Experience</span>
+                <span class="ab-card-main">Graphic Design Intern</span>
+                <span class="ab-card-sub">REFFTO</span>
+              </div>
+
+              <div class="ab-info-card">
+                <span class="ab-card-label">Focus</span>
+                <span class="ab-card-main">Brand Identity</span>
+                <span class="ab-card-main">UI/UX</span>
+                <span class="ab-card-main">Marketing Design</span>
+              </div>
+
+            </div>
+
+            <!-- View Resume Button -->
+            <div class="about-action">
+              <a href="assets/Sakshi-Kumari-Resume.pdf" target="_blank" rel="noopener noreferrer" class="about-btn"
+                aria-label="View Resume">
+                View Resume
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                  <path d="M2 2h10M12 2v10M2 12L12 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+
+          </div><!-- /about-right -->
+
+        </div><!-- /about-grid -->
+
+      </div><!-- /container -->
+    </section><!-- /about -->
+
+
+    <!-- ===================== SKILLS SECTION ===================== -->
+    <section id="skills" class="skills-section" aria-label="Skills & Creative Toolkit">
+
+      <div class="container">
+
+        <!-- Section Header -->
+        <div class="about-header reveal">
+          <span class="about-subtitle">Skills</span>
+          <h2 class="about-main-heading">Design &amp; Development</h2>
+          <p class="section-desc">A collection of design skills, tools, and technologies I use to create thoughtful
+            digital experiences.</p>
+        </div>
+
+        <!-- SECTION 1: Creative Design Skills -->
+        <div class="sk-category-block reveal">
+          <div class="sk-block-header">
+            <span class="sk-block-num">01</span>
+            <h3 class="sk-block-title">Creative Design Skills</h3>
+            <div class="sk-block-line"></div>
+          </div>
+
+          <div class="sk-creative-grid">
+            <!-- UI/UX Design -->
+            <article class="sk-creative-card tilt-card" data-color="purple" tabindex="0">
+              <div class="scc-glow"></div>
+              <div class="scc-border"></div>
+              <div class="scc-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <h4 class="scc-title">UI/UX Design</h4>
+              <p class="scc-desc">Designing intuitive user interfaces and seamless interactive user journeys.</p>
+            </article>
+
+            <!-- Graphic Design -->
+            <article class="sk-creative-card tilt-card" data-color="cyan" tabindex="0">
+              <div class="scc-glow"></div>
+              <div class="scc-border"></div>
+              <div class="scc-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z">
+                  </path>
+                  <path d="M12 6V12L16 14"></path>
+                </svg>
+              </div>
+              <h4 class="scc-title">Graphic Design</h4>
+              <p class="scc-desc">Creating visually stunning designs that communicate ideas and inspire actions.</p>
+            </article>
+
+            <!-- Branding -->
+            <article class="sk-creative-card tilt-card" data-color="pink" tabindex="0">
+              <div class="scc-glow"></div>
+              <div class="scc-border"></div>
+              <div class="scc-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+                  <line x1="7" y1="7" x2="7.01" y2="7"></line>
+                </svg>
+              </div>
+              <h4 class="scc-title">Branding</h4>
+              <p class="scc-desc">Developing coherent visual identities, brand rules, and distinct assets.</p>
+            </article>
+
+            <!-- Social Media Design -->
+            <article class="sk-creative-card tilt-card" data-color="gold" tabindex="0">
+              <div class="scc-glow"></div>
+              <div class="scc-border"></div>
+              <div class="scc-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                </svg>
+              </div>
+              <h4 class="scc-title">Social Media Design</h4>
+              <p class="scc-desc">Crafting highly engaging social creatives tailored for digital outreach.</p>
+            </article>
+
+            <!-- Poster Design -->
+            <article class="sk-creative-card tilt-card" data-color="purple" tabindex="0">
+              <div class="scc-glow"></div>
+              <div class="scc-border"></div>
+              <div class="scc-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                  <polyline points="21 15 16 10 5 21"></polyline>
+                </svg>
+              </div>
+              <h4 class="scc-title">Poster Design</h4>
+              <p class="scc-desc">Creating powerful poster designs with visual focal points and messages.</p>
+            </article>
+
+            <!-- Banner Design -->
+            <article class="sk-creative-card tilt-card" data-color="cyan" tabindex="0">
+              <div class="scc-glow"></div>
+              <div class="scc-border"></div>
+              <div class="scc-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path>
+                  <line x1="4" y1="22" x2="4" y2="15"></line>
+                </svg>
+              </div>
+              <h4 class="scc-title">Banner Design</h4>
+              <p class="scc-desc">Designing digital banner advertisements and custom large-format headers.</p>
+            </article>
+
+            <!-- Business Card Design -->
+            <article class="sk-creative-card tilt-card" data-color="pink" tabindex="0">
+              <div class="scc-glow"></div>
+              <div class="scc-border"></div>
+              <div class="scc-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                  <line x1="7" y1="8" x2="11" y2="8"></line>
+                  <line x1="7" y1="12" x2="17" y2="12"></line>
+                  <line x1="7" y1="16" x2="13" y2="16"></line>
+                </svg>
+              </div>
+              <h4 class="scc-title">Business Card Design</h4>
+              <p class="scc-desc">Creating elegant layouts for print business cards that look modern and premium.</p>
+            </article>
+
+            <!-- Presentation Design -->
+            <article class="sk-creative-card tilt-card" data-color="gold" tabindex="0">
+              <div class="scc-glow"></div>
+              <div class="scc-border"></div>
+              <div class="scc-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 17H19V7H5V17Z"></path>
+                  <path d="M12 2V7"></path>
+                  <path d="M12 17V22"></path>
+                </svg>
+              </div>
+              <h4 class="scc-title">Presentation Design</h4>
+              <p class="scc-desc">Styling deck layouts to deliver clean data visualisations and stories.</p>
+            </article>
+
+            <!-- Logo Design -->
+            <article class="sk-creative-card tilt-card" data-color="purple" tabindex="0">
+              <div class="scc-glow"></div>
+              <div class="scc-border"></div>
+              <div class="scc-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+              </div>
+              <h4 class="scc-title">Logo Design</h4>
+              <p class="scc-desc">Developing unique wordmarks and symbolic identities for businesses.</p>
+            </article>
+
+            <!-- Wireframing -->
+            <article class="sk-creative-card tilt-card" data-color="cyan" tabindex="0">
+              <div class="scc-glow"></div>
+              <div class="scc-border"></div>
+              <div class="scc-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+                  <path d="M9 3v18M15 3v18M3 9h18M3 15h18"></path>
+                </svg>
+              </div>
+              <h4 class="scc-title">Wireframing</h4>
+              <p class="scc-desc">Building layout skeletons to check hierarchy and UX interface pathways.</p>
+            </article>
+
+            <!-- Prototyping -->
+            <article class="sk-creative-card tilt-card" data-color="pink" tabindex="0">
+              <div class="scc-glow"></div>
+              <div class="scc-border"></div>
+              <div class="scc-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                  <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                </svg>
+              </div>
+              <h4 class="scc-title">Prototyping</h4>
+              <p class="scc-desc">Creating clickable and high-fidelity mockups for interactive review.</p>
+            </article>
+
+            <!-- Typography -->
+            <article class="sk-creative-card tilt-card" data-color="gold" tabindex="0">
+              <div class="scc-glow"></div>
+              <div class="scc-border"></div>
+              <div class="scc-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="4 7 4 4 20 4 20 7"></polyline>
+                  <line x1="9" y1="20" x2="15" y2="20"></line>
+                  <line x1="12" y1="4" x2="12" y2="20"></line>
+                </svg>
+              </div>
+              <h4 class="scc-title">Typography</h4>
+              <p class="scc-desc">Pairing fonts and planning scaling to balance structure and tone.</p>
+            </article>
+
+            <!-- Color Theory -->
+            <article class="sk-creative-card tilt-card" data-color="purple" tabindex="0">
+              <div class="scc-glow"></div>
+              <div class="scc-border"></div>
+              <div class="scc-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path
+                    d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z">
+                  </path>
+                  <path d="M12 6C15.3137 6 18 8.68629 18 12C18 15.3137 15.3137 18 12 18"></path>
+                </svg>
+              </div>
+              <h4 class="scc-title">Color Theory</h4>
+              <p class="scc-desc">Choosing color combinations to define branding goals and elicit user focus.</p>
+            </article>
+
+            <!-- Layout Design -->
+            <article class="sk-creative-card tilt-card" data-color="cyan" tabindex="0">
+              <div class="scc-glow"></div>
+              <div class="scc-border"></div>
+              <div class="scc-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="3" y1="9" x2="21" y2="9"></line>
+                  <line x1="9" y1="21" x2="9" y2="9"></line>
+                </svg>
+              </div>
+              <h4 class="scc-title">Layout Design</h4>
+              <p class="scc-desc">Structuring information using grids, alignment, negative space, and sizing.</p>
+            </article>
+
+            <!-- Responsive Design -->
+            <article class="sk-creative-card tilt-card" data-color="pink" tabindex="0">
+              <div class="scc-glow"></div>
+              <div class="scc-border"></div>
+              <div class="scc-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                  <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                </svg>
+              </div>
+              <h4 class="scc-title">Responsive Design</h4>
+              <p class="scc-desc">Developing screens to flow fluidly on standard monitors, tablets, and phones.</p>
+            </article>
+
+            <!-- Design Systems -->
+            <article class="sk-creative-card tilt-card" data-color="gold" tabindex="0">
+              <div class="scc-glow"></div>
+              <div class="scc-border"></div>
+              <div class="scc-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                  <polyline points="2 12 12 17 22 12"></polyline>
+                </svg>
+              </div>
+              <h4 class="scc-title">Design Systems</h4>
+              <p class="scc-desc">Formulating component libraries and visual tokens to scale applications.</p>
+            </article>
+
+            <!-- User Research (Basic) -->
+            <article class="sk-creative-card tilt-card" data-color="purple" tabindex="0">
+              <div class="scc-glow"></div>
+              <div class="scc-border"></div>
+              <div class="scc-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+              </div>
+              <h4 class="scc-title">User Research (Basic)</h4>
+              <p class="scc-desc">Gathering early user reviews to build understanding of workflow blockages.</p>
+            </article>
+          </div>
+        </div>
+
+        <!-- SECTION 2: Design Tools -->
+        <div class="sk-category-block reveal">
+          <div class="sk-block-header">
+            <span class="sk-block-num">02</span>
+            <h3 class="sk-block-title">Design Tools</h3>
+            <div class="sk-block-line"></div>
+          </div>
+
+          <div class="sk-tools-container">
+            <!-- Figma -->
+            <div class="sk-tool-item" data-tool="figma" tabindex="0">
+              <div class="sti-glow"></div>
+              <div class="sti-icon-wrap">
+                <svg viewBox="0 0 38 57" fill="none" width="32" height="32">
+                  <path d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z" fill="#1ABCFE" />
+                  <path d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 0 1-19 0z" fill="#0ACF83" />
+                  <path d="M19 0v19h9.5a9.5 9.5 0 0 0 0-19H19z" fill="#FF7262" />
+                  <path d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z" fill="#F24E1E" />
+                  <path d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z" fill="#A259FF" />
+                </svg>
+              </div>
+              <div class="sti-info">
+                <h4 class="sti-name">Figma</h4>
+                <span class="sti-level level-advanced">Advanced</span>
+              </div>
+            </div>
+
+            <!-- Canva -->
+            <div class="sk-tool-item" data-tool="canva" tabindex="0">
+              <div class="sti-glow"></div>
+              <div class="sti-icon-wrap">
+                <svg viewBox="0 0 56 56" fill="none" width="32" height="32">
+                  <rect width="56" height="56" rx="14" fill="url(#canva-grad-sk)" />
+                  <defs>
+                    <linearGradient id="canva-grad-sk" x1="0" y1="0" x2="56" y2="56">
+                      <stop stop-color="#7D2AE8" />
+                      <stop offset="1" stop-color="#00C4CC" />
+                    </linearGradient>
+                  </defs><text x="12" y="41" font-size="32" font-family="Arial" font-weight="900" fill="white">C</text>
+                </svg>
+              </div>
+              <div class="sti-info">
+                <h4 class="sti-name">Canva</h4>
+                <span class="sti-level level-advanced">Advanced</span>
+              </div>
+            </div>
+
+            <!-- Photoshop -->
+            <div class="sk-tool-item" data-tool="photoshop" tabindex="0">
+              <div class="sti-glow"></div>
+              <div class="sti-icon-wrap">
+                <svg viewBox="0 0 240 234" fill="none" width="32" height="32">
+                  <rect width="240" height="234" rx="42" fill="#001E36" />
+                  <path
+                    d="M54 164V72h42c8 0 15 2 20 7s8 12 8 21c0 9-3 16-8 21s-12 7-20 7H75v36H54zm21-53h19c4 0 7-1 9-3s3-5 3-9c0-4-1-7-3-9s-5-3-9-3H75v24zM168 165c-6 0-12-1-17-3s-10-5-14-9l10-13c3 3 7 5 11 7s8 3 11 3c3 0 5-1 7-2s3-3 3-5c0-3-1-5-3-7s-7-4-14-6c-7-2-12-5-15-9s-5-9-5-15c0-5 1-9 3-13s6-7 10-9 9-3 15-3c5 0 10 1 14 3s8 4 11 7l-10 13c-3-2-5-4-8-5s-6-2-9-2c-3 0-5 1-7 2s-3 3-3 5c0 2 1 4 3 6s7 4 13 6c7 2 13 5 16 9s5 9 5 15c0 5-1 9-3 13s-6 7-10 9-10 3-16 3z"
+                    fill="#31A8FF" />
+                </svg>
+              </div>
+              <div class="sti-info">
+                <h4 class="sti-name">Photoshop</h4>
+                <span class="sti-level level-intermediate">Intermediate</span>
+              </div>
+            </div>
+
+            <!-- Illustrator -->
+            <div class="sk-tool-item" data-tool="illustrator" tabindex="0">
+              <div class="sti-glow"></div>
+              <div class="sti-icon-wrap">
+                <svg viewBox="0 0 240 234" fill="none" width="32" height="32">
+                  <rect width="240" height="234" rx="42" fill="#330000" />
+                  <path
+                    d="M101 155H65l-8 24H38l36-107h26l36 107h-19l-8-24zm-32-18h28l-14-42-14 42zM183 72h18v107h-18V72z"
+                    fill="#FF9A00" />
+                </svg>
+              </div>
+              <div class="sti-info">
+                <h4 class="sti-name">Illustrator</h4>
+                <span class="sti-level level-basic">Basic</span>
+              </div>
+            </div>
+
+            <!-- VS Code -->
+            <div class="sk-tool-item" data-tool="vscode" tabindex="0">
+              <div class="sti-glow"></div>
+              <div class="sti-icon-wrap">
+                <svg viewBox="0 0 100 100" width="32" height="32">
+                  <path fill="#0065A9"
+                    d="M74.5 4.7L39 35.7 17 18.2 4.8 24.9l25.5 25-25.5 25L17 81.6l22-17.5 35.5 31L95 88.6V11.4z" />
+                  <path fill="#007ACC" d="M74.5 4.7L95 11.4v77.2L74.5 95.3 17 81.6l-12.2 6.7L74.5 4.7z" />
+                  <path fill="#1F9CF0"
+                    d="M74.5 95.3L39 64.3 17 81.8l-12.2-6.7 25.5-25-25.5-25L17 18.2l22 17.5 35.5-31L95 11.4" />
+                </svg>
+              </div>
+              <div class="sti-info">
+                <h4 class="sti-name">VS Code</h4>
+                <span class="sti-level level-intermediate">Intermediate</span>
+              </div>
+            </div>
+
+            <!-- Git -->
+            <div class="sk-tool-item" data-tool="git" tabindex="0">
+              <div class="sti-glow"></div>
+              <div class="sti-icon-wrap">
+                <svg viewBox="0 0 92 92" width="32" height="32">
+                  <path fill="#F05032"
+                    d="M90.156 41.965L50.036 1.848a5.872 5.872 0 00-8.3 0L33.9 9.68l10.61 10.61a6.965 6.965 0 018.79 8.867l10.222 10.222a6.968 6.968 0 11-4.174 4.06L49.68 33.757v24.3a6.973 6.973 0 11-5.73-.173V33.547a6.973 6.973 0 01-3.79-9.138L29.658 14.01l-27.814 27.95a5.872 5.872 0 000 8.3L41.963 90.38a5.872 5.872 0 008.3 0l39.893-39.9a5.872 5.872 0 000-8.515z" />
+                </svg>
+              </div>
+              <div class="sti-info">
+                <h4 class="sti-name">Git</h4>
+                <span class="sti-level level-basic">Basic</span>
+              </div>
+            </div>
+
+            <!-- Google Workspace -->
+            <div class="sk-tool-item" data-tool="google" tabindex="0">
+              <div class="sti-glow"></div>
+              <div class="sti-icon-wrap">
+                <svg viewBox="0 0 48 48" width="32" height="32">
+                  <path fill="#4285F4"
+                    d="M24 9.5c3.5 0 6.5 1.2 8.9 3.2l6.6-6.6C35.2 2.5 29.9 0 24 0 14.6 0 6.6 5.4 2.7 13.4l7.7 6C12.4 13 17.7 9.5 24 9.5z" />
+                  <path fill="#34A853"
+                    d="M46.5 24.5c0-1.6-.1-3.2-.4-4.7H24v9h12.7c-.5 2.8-2.2 5.2-4.7 6.8l7.3 5.7c4.3-4 6.8-9.9 6.8-16.8z" />
+                  <path fill="#FBBC05"
+                    d="M10.4 28.6A14.6 14.6 0 0 1 9.5 24c0-1.6.3-3.1.8-4.6l-7.7-6A23.8 23.8 0 0 0 0 24c0 3.9.9 7.5 2.6 10.7l7.8-6.1z" />
+                  <path fill="#EA4335"
+                    d="M24 48c6 0 11-2 14.7-5.4l-7.3-5.7c-2 1.3-4.5 2.1-7.4 2.1-6.3 0-11.6-4.3-13.5-10l-7.8 6C6.6 42.6 14.6 48 24 48z" />
+                </svg>
+              </div>
+              <div class="sti-info">
+                <h4 class="sti-name">Google Workspace</h4>
+                <span class="sti-level level-advanced">Advanced</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION 3: Frontend & Programming -->
+        <div class="sk-category-block reveal">
+          <div class="sk-block-header">
+            <span class="sk-block-num">03</span>
+            <h3 class="sk-block-title">Frontend &amp; Programming</h3>
+            <div class="sk-block-line"></div>
+          </div>
+
+          <div class="sk-programming-grid">
+            <!-- HTML5 -->
+            <div class="sk-programming-card reveal-left" style="--prog-delay: 0s;">
+              <div class="spc-glow"></div>
+              <div class="spc-header">
+                <div class="spc-icon color-html">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path
+                      d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" />
+                  </svg>
+                </div>
+                <h4 class="spc-title">HTML5</h4>
+              </div>
+              <p class="spc-desc">Building semantic and responsive web layouts.</p>
+            </div>
+
+            <!-- CSS3 -->
+            <div class="sk-programming-card reveal-left" style="--prog-delay: 0.1s;">
+              <div class="spc-glow"></div>
+              <div class="spc-header">
+                <div class="spc-icon color-css">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path
+                      d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.003-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z" />
+                  </svg>
+                </div>
+                <h4 class="spc-title">CSS3</h4>
+              </div>
+              <p class="spc-desc">Creating modern responsive user interfaces.</p>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="sk-programming-card reveal-left" style="--prog-delay: 0.2s;">
+              <div class="spc-glow"></div>
+              <div class="spc-header">
+                <div class="spc-icon color-js">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path
+                      d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" />
+                  </svg>
+                </div>
+                <h4 class="spc-title">JavaScript</h4>
+              </div>
+              <p class="spc-desc">Adding interactive user experiences.</p>
+            </div>
+
+            <!-- Python -->
+            <div class="sk-programming-card reveal-left" style="--prog-delay: 0.3s;">
+              <div class="spc-glow"></div>
+              <div class="spc-header">
+                <div class="spc-icon color-py">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path
+                      d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zM21.1 6.11l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.79l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.04z" />
+                  </svg>
+                </div>
+                <h4 class="spc-title">Python</h4>
+              </div>
+              <p class="spc-desc">Problem solving and automation.</p>
+            </div>
+
+            <!-- Java -->
+            <div class="sk-programming-card reveal-left" style="--prog-delay: 0.4s;">
+              <div class="spc-glow"></div>
+              <div class="spc-header">
+                <div class="spc-icon color-java">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path
+                      d="M8.851 18.56s-.917.534.653.714c1.902.218 2.874.187 4.969-.211 0 0 .552.346 1.321.646-4.699 2.013-10.633-.118-6.943-1.149M8.276 15.933s-1.028.761.542.924c2.032.209 3.636.227 6.413-.308 0 0 .384.389.987.602-5.679 1.661-12.007.13-7.942-1.218M13.116 11.475c1.158 1.333-.304 2.533-.304 2.533s2.939-1.518 1.589-3.418c-1.261-1.772-2.228-2.652 3.007-5.688 0-.001-8.216 2.051-4.292 6.573M19.33 20.504s.679.559-.747.991c-2.712.822-11.288 1.069-13.669.033-.856-.373.75-.89 1.254-.998.527-.114.828-.093.828-.093-.953-.671-6.156 1.317-2.643 1.887 9.58 1.553 17.462-.7 14.977-1.82M9.292 13.21s-4.362 1.036-1.544 1.412c1.189.159 3.561.123 5.77-.062 1.806-.152 3.618-.477 3.618-.477s-.637.272-1.098.587c-4.429 1.165-12.986.623-10.522-.568 2.082-1.006 3.776-.892 3.776-.892M17.116 17.584c4.503-2.34 2.421-4.589.968-4.285-.355.074-.515.138-.515.138s.132-.207.385-.297c2.875-1.011 5.086 2.981-.928 4.562 0-.001.07-.062.09-.118M14.401 0s2.494 2.494-2.365 6.33c-3.896 3.077-.888 4.832-.001 6.836-2.274-2.053-3.943-3.858-2.824-5.541 1.644-2.469 6.197-3.665 5.19-7.625M9.734 23.924c4.322.277 10.959-.153 11.116-2.198 0 0-.302.775-3.572 1.391-3.688.694-8.239.613-10.937.168 0-.001.553.457 3.393.639" />
+                  </svg>
+                </div>
+                <h4 class="spc-title">Java</h4>
+              </div>
+              <p class="spc-desc">Object-oriented programming fundamentals.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION 4: Workflow -->
+        <div class="sk-category-block reveal">
+          <div class="sk-block-header">
+            <span class="sk-block-num">04</span>
+            <h3 class="sk-block-title">Workflow</h3>
+            <div class="sk-block-line"></div>
+          </div>
+
+          <div class="sk-workflow-wrap">
+            <div class="sk-workflow-track">
+              <!-- Research -->
+              <div class="sk-workflow-node reveal-up" style="--wf-delay: 0s;">
+                <div class="wfn-circle wfn-purple">
+                  <span class="wfn-num">1</span>
+                  <div class="wfn-pulse"></div>
+                </div>
+                <h4 class="wfn-title">Research</h4>
+                <p class="wfn-desc">Understanding audience demands and context</p>
+              </div>
+
+              <!-- Wireframe -->
+              <div class="sk-workflow-node reveal-up" style="--wf-delay: 0.1s;">
+                <div class="wfn-circle wfn-cyan">
+                  <span class="wfn-num">2</span>
+                  <div class="wfn-pulse"></div>
+                </div>
+                <h4 class="wfn-title">Wireframe</h4>
+                <p class="wfn-desc">Organising early structures and design patterns</p>
+              </div>
+
+              <!-- Design -->
+              <div class="sk-workflow-node reveal-up" style="--wf-delay: 0.2s;">
+                <div class="wfn-circle wfn-pink">
+                  <span class="wfn-num">3</span>
+                  <div class="wfn-pulse"></div>
+                </div>
+                <h4 class="wfn-title">Design</h4>
+                <p class="wfn-desc">Executing visually polished layouts and guides</p>
+              </div>
+
+              <!-- Prototype -->
+              <div class="sk-workflow-node reveal-up" style="--wf-delay: 0.3s;">
+                <div class="wfn-circle wfn-gold">
+                  <span class="wfn-num">4</span>
+                  <div class="wfn-pulse"></div>
+                </div>
+                <h4 class="wfn-title">Prototype</h4>
+                <p class="wfn-desc">Constructing interactive screen flows</p>
+              </div>
+
+              <!-- Testing -->
+              <div class="sk-workflow-node reveal-up" style="--wf-delay: 0.4s;">
+                <div class="wfn-circle wfn-purple">
+                  <span class="wfn-num">5</span>
+                  <div class="wfn-pulse"></div>
+                </div>
+                <h4 class="wfn-title">Testing</h4>
+                <p class="wfn-desc">Evaluating performance and verifying use-cases</p>
+              </div>
+
+              <!-- Final Design -->
+              <div class="sk-workflow-node reveal-up" style="--wf-delay: 0.5s;">
+                <div class="wfn-circle wfn-cyan">
+                  <span class="wfn-num">6</span>
+                  <div class="wfn-pulse"></div>
+                </div>
+                <h4 class="wfn-title">Final Design</h4>
+                <p class="wfn-desc">Providing structured files ready for production</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /container -->
+    </section><!-- /skills -->
+
+    <!-- ===================== WHAT I DESIGN SECTION ===================== -->
+    <section id="services" class="services-section" aria-label="What I Design">
+
+      <div class="expertise-container">
+
+        <!-- Section Header -->
+        <div class="expertise-header reveal">
+          <span class="expertise-subtitle">Expertise</span>
+          <h2 class="expertise-main-heading">What I Design</h2>
+          <p class="expertise-desc">
+            Over the past year, I've worked on a variety of creative projects, from branding and social media campaigns
+            to event posters and UI concepts. Here are the areas I enjoy working in.
+          </p>
+        </div>
+
+        <!-- Expertise Grid -->
+        <div class="expertise-grid">
+
+          <!-- Card 1: Brand Identity -->
+          <div class="expertise-card reveal-up" style="--ri:0" tabindex="0">
+            <div class="exp-icon">
+              <!-- Custom Minimal Icon for Branding -->
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+            </div>
+            <h3 class="exp-card-title">Brand Identity</h3>
+            <p class="exp-card-desc">
+              Creating visual identities through logo concepts, typography, color palettes, and brand assets that
+              communicate a clear personality.
+            </p>
+          </div>
+
+          <!-- Card 2: Social Media Design -->
+          <div class="expertise-card reveal-up" style="--ri:1" tabindex="0">
+            <div class="exp-icon">
+              <!-- Custom Minimal Icon for Social Media -->
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <polyline points="21 15 16 10 5 21" />
+              </svg>
+            </div>
+            <h3 class="exp-card-title">Social Media Design</h3>
+            <p class="exp-card-desc">
+              Designing engaging Instagram posts, campaign creatives, promotional graphics, and marketing visuals for
+              digital platforms.
+            </p>
+          </div>
+
+          <!-- Card 3: Event Posters -->
+          <div class="expertise-card reveal-up" style="--ri:2" tabindex="0">
+            <div class="exp-icon">
+              <!-- Custom Minimal Icon for Posters -->
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="2" width="16" height="20" rx="2" />
+                <line x1="8" y1="6" x2="16" y2="6" />
+                <line x1="8" y1="10" x2="16" y2="10" />
+                <line x1="8" y1="14" x2="12" y2="14" />
+              </svg>
+            </div>
+            <h3 class="exp-card-title">Event Posters</h3>
+            <p class="exp-card-desc">
+              Creating posters for technical events, workshops, gaming tournaments, college festivals, and cultural
+              programs with strong visual hierarchy.
+            </p>
+          </div>
+
+          <!-- Card 4: UI/UX Design -->
+          <div class="expertise-card reveal-up" style="--ri:3" tabindex="0">
+            <div class="exp-icon">
+              <!-- Custom Minimal Icon for UI/UX -->
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                <line x1="8" y1="21" x2="16" y2="21" />
+                <line x1="12" y1="17" x2="12" y2="21" />
+              </svg>
+            </div>
+            <h3 class="exp-card-title">UI/UX Design</h3>
+            <p class="exp-card-desc">
+              Designing clean user interfaces, wireframes, and responsive layouts with a focus on usability and
+              simplicity.
+            </p>
+          </div>
+
+          <!-- Card 5: Marketing Creatives -->
+          <div class="expertise-card reveal-up" style="--ri:4" tabindex="0">
+            <div class="exp-icon">
+              <!-- Custom Minimal Icon for Marketing -->
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 19l7-7 3 3-7 7-3-3z" />
+                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z" />
+                <line x1="2" y1="2" x2="9" y2="9" />
+              </svg>
+            </div>
+            <h3 class="exp-card-title">Marketing Creatives</h3>
+            <p class="exp-card-desc">
+              Designing banners, advertisements, presentation graphics, and promotional materials for digital campaigns.
+            </p>
+          </div>
+
+          <!-- Card 6: Presentation Design -->
+          <div class="expertise-card reveal-up" style="--ri:5" tabindex="0">
+            <div class="exp-icon">
+              <!-- Custom Minimal Icon for Presentations -->
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                <path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5v-15z" />
+              </svg>
+            </div>
+            <h3 class="exp-card-title">Presentation Design</h3>
+            <p class="exp-card-desc">
+              Creating professional presentation slides, certificates, business cards, and visual communication
+              materials.
+            </p>
+          </div>
+
+        </div><!-- /expertise-grid -->
+
+        <!-- Bottom Quote -->
+        <p class="expertise-quote reveal">
+          "I enjoy solving visual problems through thoughtful design and I'm always excited to explore new creative
+          challenges."
+        </p>
+      </div><!-- /expertise-container -->
+    </section><!-- /services -->
+    <!-- ===================== SELECTED PROJECTS SECTION ===================== -->
+    <section id="projects" class="portfolio-section" aria-label="Portfolio">
+
+      <div class="portfolio-container">
+
+        <!-- Section Header -->
+        <div class="portfolio-header reveal">
+          <span class="portfolio-subtitle">Work</span>
+          <h2 class="portfolio-main-heading">Selected Projects</h2>
+          <p class="portfolio-desc">
+            A collection of projects that reflect my design approach, creativity, and problem-solving across branding,
+            social media, event design, and UI concepts.
+          </p>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Dynamically injected via projects.js -->
+        </div>
+
+        <!-- Bottom CTA -->
+        <!-- <div class="projects-bottom-cta reveal">
+          <span class="cta-text">Interested in seeing more?</span>
+          <a href="https://behance.net" target="_blank" rel="noopener noreferrer" class="cta-btn">
+            View All Projects
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+              <path d="M2 2h10M12 2v10M2 12L12 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div> -->
+
+      </div><!-- /portfolio-container -->
+    </section><!-- /projects -->
+    <!-- ===================== JOURNEY SECTION ===================== -->
+    <section id="education" class="journey-section" aria-label="My Journey">
+
+      <div class="journey-container">
+
+        <!-- Section Header -->
+        <div class="journey-header reveal">
+          <span class="journey-subtitle">Journey</span>
+          <h2 class="journey-main-heading">Learning, Growing &amp; Designing</h2>
+          <p class="journey-desc">
+            A timeline of my education, internship experience, certifications, and continuous growth as a Graphic
+            Designer and aspiring UI/UX Designer.
+          </p>
+        </div>
+
+        <!-- Split Layout -->
+        <div class="journey-grid">
+
+          <!-- ── LEFT SIDE: Vertical Timeline ── -->
+          <div class="journey-left reveal-left">
+            <div class="j-timeline">
+              <div class="j-timeline-spine"></div>
+
+              <!-- Point 1: 2022 -->
+              <div class="j-timeline-item">
+                <div class="j-node"></div>
+                <div class="j-timeline-content">
+                  <span class="j-time-year">2022</span>
+                  <h4 class="j-time-title">Started B.Tech in Data Science</h4>
+                  <p class="j-time-sub">Technocrats Institute of Technology</p>
+                </div>
+              </div>
+
+              <!-- Point 2: 2024 -->
+              <div class="j-timeline-item">
+                <div class="j-node"></div>
+                <div class="j-timeline-content">
+                  <span class="j-time-year">2024</span>
+                  <h4 class="j-time-title">Started learning Graphic Design</h4>
+                  <p class="j-time-sub">Built personal design projects</p>
+                </div>
+              </div>
+
+              <!-- Point 3: 2025 -->
+              <div class="j-timeline-item">
+                <div class="j-node"></div>
+                <div class="j-timeline-content">
+                  <span class="j-time-year">2025</span>
+                  <h4 class="j-time-title">Graphic Design Intern</h4>
+                  <p class="j-time-sub">REFFTO</p>
+                  <p class="j-time-body">Worked on branding, posters, social media creatives and UI layouts.</p>
+                </div>
+              </div>
+
+              <!-- Point 4: Present -->
+              <div class="j-timeline-item">
+                <div class="j-node"></div>
+                <div class="j-timeline-content">
+                  <span class="j-time-year">Present</span>
+                  <h4 class="j-time-title">Learning UI/UX Design</h4>
+                  <p class="j-time-sub">Building personal portfolio</p>
+                  <p class="j-time-body">Open to internship and full-time opportunities.</p>
+                </div>
+              </div>
+
+            </div><!-- /j-timeline -->
+          </div><!-- /journey-left -->
+
+          <!-- ── RIGHT SIDE: Information Cards ── -->
+          <div class="journey-right reveal-right">
+            <div class="j-cards-wrap">
+
+              <!-- Card 1: Experience -->
+              <div class="j-info-card" tabindex="0">
+                <div class="j-card-header">
+                  <span class="j-card-label">Experience</span>
+                  <span class="j-card-meta">Aug 2025 – Dec 2025</span>
+                </div>
+                <h3 class="j-card-title">Graphic Design Intern</h3>
+                <span class="j-card-org">REFFTO</span>
+                <div class="j-card-bullets">
+                  <span class="j-bullet-tag">Branding</span>
+                  <span class="j-bullet-tag">Social Media</span>
+                  <span class="j-bullet-tag">Marketing Creatives</span>
+                  <span class="j-bullet-tag">UI Design</span>
+                </div>
+              </div>
+
+              <!-- Card 2: Education -->
+              <div class="j-info-card" tabindex="0">
+                <div class="j-card-header">
+                  <span class="j-card-label">Education</span>
+                  <span class="j-card-meta">2022–2026</span>
+                </div>
+                <h3 class="j-card-title">Bachelor of Technology</h3>
+                <span class="j-card-org">Data Science</span>
+                <p class="j-card-text">Technocrats Institute of Technology</p>
+                <div class="j-card-extra">
+                  <span class="j-extra-label">CGPA</span>
+                  <span class="j-extra-value">7.11</span>
+                </div>
+              </div>
+
+              <!-- Card 3: Certifications -->
+              <div class="j-info-card" tabindex="0">
+                <div class="j-card-header">
+                  <span class="j-card-label">Certifications</span>
+                </div>
+                <div class="j-cert-list">
+                  <div class="j-cert-item">
+                    <span class="j-cert-name">Graphic Design Internship</span>
+                    <span class="j-cert-status">Completed</span>
+                  </div>
+                  <div class="j-cert-item">
+                    <span class="j-cert-name">UI/UX Design</span>
+                    <span class="j-cert-status learning">Learning</span>
+                  </div>
+                  <div class="j-cert-item">
+                    <span class="j-cert-name">Python</span>
+                    <span class="j-cert-status learning">Learning</span>
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- /j-cards-wrap -->
+          </div><!-- /journey-right -->
+
+        </div><!-- /journey-grid -->
+
+        <!-- ── BOTTOM: Highlights ── -->
+        <div class="journey-bottom reveal">
+
+          <div class="j-stat-item">
+            <span class="j-stat-num">15+</span>
+            <span class="j-stat-label">Projects</span>
+          </div>
+
+          <div class="j-stat-divider" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 5v14M19 12l-7 7-7-7" />
+            </svg>
+          </div>
+
+          <div class="j-stat-item">
+            <span class="j-stat-num">1</span>
+            <span class="j-stat-label">Internship</span>
+          </div>
+
+          <div class="j-stat-divider" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 5v14M19 12l-7 7-7-7" />
+            </svg>
+          </div>
+
+          <div class="j-stat-item">
+            <span class="j-stat-num">2024</span>
+            <span class="j-stat-label">Started Design Journey</span>
+          </div>
+
+          <div class="j-stat-divider" aria-hidden="true">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 5v14M19 12l-7 7-7-7" />
+            </svg>
+          </div>
+
+          <div class="j-stat-item">
+            <span class="j-stat-num">Open</span>
+            <span class="j-stat-label">Internship &amp; Full-Time Opportunities</span>
+          </div>
+
+        </div><!-- /journey-bottom -->
+
+      </div><!-- /journey-container -->
+    </section><!-- /education -->
+
+
+
+    <!-- ===================== CONTACT SECTION ===================== -->
+    <section id="contact" class="contact-section" aria-label="Contact">
+
+      <div class="contact-container">
+
+        <!-- Section Header -->
+        <div class="contact-header reveal">
+          <span class="contact-subtitle">Contact</span>
+          <h2 class="contact-main-heading">Let's Connect</h2>
+          <p class="contact-desc">
+            I'm always open to internship opportunities, full-time roles, collaborations, and conversations about
+            design.
+          </p>
+        </div>
+
+        <!-- Split Layout Grid -->
+        <div class="contact-grid">
+
+          <!-- ── LEFT SIDE: Personal Information ── -->
+          <div class="contact-left reveal-left">
+            <h3 class="contact-side-title">Get in Touch</h3>
+            <p class="contact-side-text">
+              Whether you're a recruiter, hiring manager, or someone who wants to collaborate, I'd love to hear from
+              you.
+            </p>
+
+            <div class="contact-info-list">
+
+              <div class="contact-info-item">
+                <span class="contact-info-icon" aria-hidden="true">📧</span>
+                <div class="contact-info-content">
+                  <span class="contact-info-label">Email</span>
+                  <a href="mailto:work.sakshi26@gmail.com" class="contact-info-value">work.sakshi26@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <span class="contact-info-icon" aria-hidden="true">📍</span>
+                <div class="contact-info-content">
+                  <span class="contact-info-label">Location</span>
+                  <span class="contact-info-value text-white">Bhopal, Madhya Pradesh, India</span>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <span class="contact-info-icon" aria-hidden="true">💼</span>
+                <div class="contact-info-content">
+                  <span class="contact-info-label">LinkedIn</span>
+                  <a href="https://linkedin.com/in/sakshi-kumari16" target="_blank" rel="noopener noreferrer"
+                    class="contact-info-value">linkedin.com/in/sakshi-kumari16</a>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <span class="contact-info-icon" aria-hidden="true">💻</span>
+                <div class="contact-info-content">
+                  <span class="contact-info-label">GitHub</span>
+                  <a href="https://github.com/Sakshi0978" target="_blank" rel="noopener noreferrer"
+                    class="contact-info-value">github.com/Sakshi0978</a>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <span class="contact-info-icon" aria-hidden="true">📱</span>
+                <div class="contact-info-content">
+                  <span class="contact-info-label">Instagram</span>
+                  <a href="https://instagram.com/ammy_barbie5" target="_blank" rel="noopener noreferrer"
+                    class="contact-info-value">@ammy_barbie5</a>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Resume Button -->
+            <div class="contact-resume-wrap">
+              <a href="assets/Sakshi-Kumari-Resume.pdf" target="_blank" rel="noopener noreferrer"
+                class="contact-resume-btn">
+                Resume ↗
+              </a>
+            </div>
+          </div><!-- /contact-left -->
+
+          <!-- ── RIGHT SIDE: Contact Form ── -->
+          <div class="contact-right reveal-right">
+            <form id="contact-form" class="contact-form" novalidate>
+
+              <div class="form-group">
+                <label for="form-name" class="form-label">Full Name</label>
+                <input type="text" id="form-name" name="name" class="form-input" placeholder="John Doe" required>
+                <span class="form-error-msg" id="name-error"></span>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="form-email" class="form-label">Email Address</label>
+                  <input type="email" id="form-email" name="email" class="form-input" placeholder="john@example.com"
+                    required>
+                  <span class="form-error-msg" id="email-error"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="form-subject" class="form-label">Subject</label>
+                  <input type="text" id="form-subject" name="subject" class="form-input"
+                    placeholder="Project Collaboration" required>
+                  <span class="form-error-msg" id="subject-error"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message</label>
+                <textarea id="form-message" name="message" class="form-input form-textarea"
+                  placeholder="Tell me about your project..." required></textarea>
+                <span class="form-error-msg" id="message-error"></span>
+              </div>
+
+              <button type="submit" class="form-submit-btn">
+                <span>Send Message</span>
+              </button>
+
+              <!-- Success Alert Message (initially hidden) -->
+              <div class="form-success-block" id="form-success">
+                <span class="success-icon">✓</span>
+                <p class="success-text">Thank you! Your message has been sent successfully.</p>
+              </div>
+
+            </form>
+
+            <!-- Footer Note -->
+            <p class="contact-footer-note">
+              "Thanks for visiting my portfolio. I appreciate your time and look forward to connecting with you."
+            </p>
+
+          </div><!-- /contact-right -->
+
+        </div><!-- /contact-grid -->
+
+      </div><!-- /contact-container -->
+    </section><!-- /contact -->
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-container">
+
+      <!-- Top Divider -->
+      <div class="footer-divider" aria-hidden="true"></div>
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <h3 class="footer-name">Sakshi Kumari</h3>
+        <p class="footer-title">Graphic Designer • Aspiring UI/UX Designer</p>
+      </div>
+
+      <!-- Message -->
+      <p class="footer-message">Thanks for visiting my portfolio. I hope you enjoyed exploring my work.</p>
+
+      <!-- Navigation Links -->
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#projects" class="footer-nav-link">Work</a>
+        <a href="#about" class="footer-nav-link">About</a>
+        <a href="#education" class="footer-nav-link">Journey</a>
+        <a href="#contact" class="footer-nav-link">Contact</a>
+      </nav>
+
+      <!-- Social Icons -->
+      <div class="footer-socials">
+        <a href="https://linkedin.com" class="footer-social-link" target="_blank" rel="noopener noreferrer"
+          aria-label="LinkedIn">
+          <svg fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+          </svg>
+        </a>
+        <a href="https://github.com" class="footer-social-link" target="_blank" rel="noopener noreferrer"
+          aria-label="GitHub">
+          <svg fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+          </svg>
+        </a>
+        <a href="https://instagram.com" class="footer-social-link" target="_blank" rel="noopener noreferrer"
+          aria-label="Instagram">
+          <svg fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+          </svg>
+        </a>
+        <a href="mailto:work.sakshi26@gmail.com" class="footer-social-link" aria-label="Email">
+          <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          </svg>
+        </a>
+      </div>
+
+      <!-- Bottom Row -->
+      <div class="footer-bottom">
+        <span class="footer-copy">&copy; 2026 Sakshi Kumari</span>
+        <span class="footer-credit">Designed &amp; Developed by Sakshi Kumari</span>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+    </svg>
+  </button>
+
+  <!-- ===================== PREMIUM PORTFOLIO MODAL ===================== -->
+  <div id="portfolio-modal" class="portfolio-modal-container" role="dialog" aria-modal="true"
+    aria-labelledby="pm-title-id">
+    <!-- Modal Backdrop -->
+    <div class="pm-backdrop"></div>
+
+    <!-- Modal Wrapper -->
+    <div class="pm-wrapper">
+
+      <!-- Close Button -->
+      <button class="pm-close" aria-label="Close modal">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Modal Body -->
+      <div class="pm-body">
+
+        <!-- Large Project Image -->
+        <div class="pm-hero-wrap">
+          <img src="" alt="" class="pm-hero-img">
+        </div>
+
+        <div class="pm-content">
+          <!-- Sidebar Meta -->
+          <div class="pm-meta-sidebar">
+            <h3 class="pm-title" id="pm-title-id"></h3>
+            <span class="pm-category"></span>
+
+            <div class="pm-meta-item">
+              <span class="pm-meta-label">My Role</span>
+              <span class="pm-meta-value pm-role"></span>
+            </div>
+
+            <div class="pm-meta-item">
+              <span class="pm-meta-label">Timeline</span>
+              <span class="pm-meta-value pm-duration"></span>
+            </div>
+
+            <div class="pm-meta-item">
+              <span class="pm-meta-label">Tools Used</span>
+              <div class="pm-tools-grid"></div>
+            </div>
+          </div>
+
+          <!-- Main Case Details -->
+          <div class="pm-details">
+            <div class="pm-section">
+              <h4 class="pm-section-label">Project Overview</h4>
+              <p class="pm-overview pm-text"></p>
+            </div>
+
+            <div class="pm-section">
+              <h4 class="pm-section-label">Design Challenge</h4>
+              <p class="pm-challenge pm-text"></p>
+            </div>
+
+            <div class="pm-section">
+              <h4 class="pm-section-label">Final Outcome</h4>
+              <p class="pm-outcome pm-text"></p>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /pm-body -->
+
+      <!-- Modal Footer (Previous/Next navigation) -->
+      <div class="pm-footer">
+        <button class="pm-nav-btn pm-prev" aria-label="Previous project">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+          </svg>
+          <span>Previous Project</span>
+        </button>
+        <button class="pm-nav-btn pm-next" aria-label="Next project">
+          <span>Next Project</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
+      </div>
+
+    </div><!-- /pm-wrapper -->
+  </div><!-- /portfolio-modal -->
+
+
+  <!-- Scripts -->
+  <script src="js/projects.js" defer></script>
+  <script src="js/testimonials.js" defer></script>
+  <script src="js/process.js" defer></script>
+  <script src="js/education.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/hero.js" defer></script>
+
+</body>
+
+</html>
